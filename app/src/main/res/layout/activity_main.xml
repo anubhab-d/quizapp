@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="WELCOME\nTO THE\nFINANCE\nQUIZ APP"
+        android:textColor="#FFC107"
+        android:textColorHighlight="#0C0C0C"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="112dp"
+        android:text="Ready?"
+        android:textColor="#FFC107" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ready"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFC107"
+        android:shadowColor="#00000000"
+        android:text="START"
+        android:textColor="#F8F9FA"
+        android:textColorHighlight="#00AFA5A5"
+        android:id="@+id/start"
+        android:width="100dp"
+        android:height="35dp"
+        />
+</RelativeLayout>
+
+
+

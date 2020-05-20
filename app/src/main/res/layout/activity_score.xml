@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/congo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="CONGRATULATIONS!\n       YOU SCORED"
+        android:textColor="#FFC107"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/youscored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/congo"
+        android:layout_centerInParent="true"
+        android:text=" "
+        android:textColor="#FDFDFD"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/tryagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/youscored"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:width="100dp"
+        android:height="35dp"
+        android:background="#FFC107"
+        android:shadowColor="#00000000"
+        android:text="TRY AGAIN"
+        android:textColor="#FFFEFB"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by\n Anubhab"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:fontFamily="cursive"
+        android:textSize="12dp"
+        />
+
+
+
+
+
+</RelativeLayout>

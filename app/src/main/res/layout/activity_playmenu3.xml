@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. GBP is the currency of which country"
+            android:layout_marginTop="55dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:padding="20dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:padding="20dp"
+            android:src="@drawable/gbp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="35dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/a3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="A. Britain" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="B. China"
+
+                />
+
+            <Button
+                android:id="@+id/c3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="C. Italy" />
+
+            <Button
+                android:id="@+id/d3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="D. France" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
